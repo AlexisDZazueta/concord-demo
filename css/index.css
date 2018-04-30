@@ -1,0 +1,51 @@
+.newness-item {
+  text-align: center;
+  padding: .75rem;
+  margin-bottom: 2rem;
+}
+
+.next-releases-item {
+  text-align: center;
+  padding: .75rem;
+  margin-bottom: 2rem;
+}
+
+.offers-item {
+  text-align: center;
+  padding: .75rem;
+  margin-bottom: 2rem;
+}
+
+.newness-item > img {
+  width: 100%;
+}
+
+.next-releases-item > img {
+  width: 100%;
+}
+
+.offers-item > img {
+  width: 100%;
+}
+
+
+.title {
+  padding-top: 10px;
+  margin-bottom: -50px;
+}
+
+.title-back {
+  display: block;
+  position: relative;
+  width: 100%;
+  font-size: 4rem;
+  font-stretch: expanded;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.title-front {
+  display: block;
+  position: relative;
+  bottom: 65px;
+  font-weight: bold; 
+}

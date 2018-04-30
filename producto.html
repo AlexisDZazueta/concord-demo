@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Concord - Producto</title>
+  <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/header-footer.css">
+  <link rel="stylesheet" href="./css/producto.css">
+</head>
+<body>
+  <header>
+    <div class="superior-nav">
+      <div class="superior-nav-item col-1"></div>
+      <div class="superior-nav-item col-7">
+        <ul>
+          <li><a class="nav-link" href="#">Mi Cuenta</a></li>
+          <li><a class="nav-link" href="#">Mis Deseos</a></li>
+          <li><a class="nav-link" href="#">Pagar</a></li>
+          <li><a class="nav-link" href="#">Nuestras Direcciónes</a></li>
+          <li><a class="nav-link" href="#">Historia</a></li>
+        </ul>
+      </div>
+      <div class="superior-nav-item col-3">
+        <ul>
+          <li><a class="nav-link" href="#">Login &amp; Register</a></li>
+          <li>
+            <div class="btn-group">
+              <a class="currency nav-link dropdown-toggle" data-toggle="dropdown" href="#">MXN <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item px-1"><a href="#">MXN </a></li>
+                <li class="dropdown-item px-1"><a href="#">USD </a></li>
+                <li class="dropdown-item px-1"><a href="#">EUR </a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="superior-nav-item col-1"></div>
+    </div>
+    <nav class="navbar navbar-light navbar-expand-md bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/img/logo.png" width="55" height="50" alt="">
+      </a> 
+      <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse w-100 justify-content-between" id="collapsingNavbar">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">INICIO</a>
+          </li>
+          <li class="dropdown menu-large nav-item"> <a href="#" class="dropdown-toggle nav-link activate" data-toggle="dropdown">CATALOGO </a>
+            <ul class="dropdown-menu megamenu">
+              <div class="row">
+                <li class="col-md-4 dropdown-item">
+                  <ul>
+                    <li class="dropdown-header">CALZADO</li>
+                    <li><a href="./catalogo.html">Soccer</a></li>
+                    <li><a href="./catalogo.html">Salón</a></li>
+                    <li><a href="./catalogo.html">Running</a></li>
+                    <li><a href="./catalogo.html">Urbano</a></li>
+                    <li><a href="./catalogo.html">Casual</a></li>
+                    <li><a href="./catalogo.html">Kids</a></li>
+                    <li><a href="./catalogo.html">Basket</a></li>
+                    <li>&nbsp;</li>
+                    <li><a href="./catalogo.html">Ver Todo</a></li>
+                  </ul>
+                </li>
+                <li class="col-md-4 dropdown-item">
+                  <ul>
+                    <li class="dropdown-header">ROPA</li>
+                    <li><a href="./catalogo.html">Gorras</a></li>
+                    <li><a href="./catalogo.html">Guantes</a></li>
+                    <li><a href="./catalogo.html">Medias</a></li>
+                    <li><a href="./catalogo.html">Tines</a></li>
+                    <li><a href="./catalogo.html">Uniformes Deportivos</a></li>
+                    <li>&nbsp;</li>
+                    <li>&nbsp;</li>
+                    <li>&nbsp;</li>
+                    <li><a href="./catalogo.html">Ver Todo</a></li>
+                  </ul>
+                </li>
+                <li class="col-md-4 dropdown-item">
+                  <ul>
+                    <li class="dropdown-header">ACCESORIOS</li>
+                    <li><a href="./catalogo.html">Balones</a></li>
+                    <li><a href="./catalogo.html">Espinilleras</a></li>
+                    <li><a href="./catalogo.html">Zapateras</a></li>
+                    <li><a href="./catalogo.html">Mochilas</a></li>
+                    <li>&nbsp;</li>
+                    <li>&nbsp;</li>
+                    <li>&nbsp;</li>
+                    <li>&nbsp;</li>
+                    <li><a href="./catalogo.html">Ver Todo</a></li>
+                  </ul>
+                </li>
+              </div>
+            </ul>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACTO</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">UBICACIÓN</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ACERCA DE CONCORD</a> 
+          </li>
+        </ul>
+        <ul class="nav navbar-nav flex-row flex-nowrap">
+          <li class="nav-item">
+            <input class="form-control" type="search" placeholder="Buscar Productos" aria-label="Search">
+          </li>
+          <li class="nav-item item">
+            <a data-toggle="modal" href="#shopping-cart">
+              <span class="notify-badge">1</span>
+              <div>
+                <img src="./assets/img/shopping-cart.svg" width="22" height="22" alt="Carrito de compras">
+              </div>
+            </a>
+          </li> 
+          <div id="shopping-cart" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">CARRITO DE COMPRAS</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body row">
+                <div class="col-md-7">
+                  <div class="row modal-product">
+                    <div class="col-md-5 image-product">
+                      <img src="./assets/img/small/producto1.png" width="180" alt="producto comprado"/>
+                    </div>
+                    <div class="col-md-7 info-product">
+                      <h4>ESTILO S160BJ</h4>
+                      <h6>$727.00</h6>
+                      <p>Color: Black / Orange / Yellow</p>
+                      <p>Talla: MX 7.5</p>
+                      <p>Cantidad: 1</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5 info-sales">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h2>ARTICULO</h2>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p>Costo total de los productos: </p>
+                    </div>
+                    <div class="col-md-4">
+                      <br>
+                      <h6>$727.00</h6>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p>Costo de envio estándar: </p>
+                    </div>
+                    <div class="col-md-4">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;$0.00</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <p>Total: <br>(Impuestos incluidos)</p>
+                    </div>
+                    <div class="col-md-4">
+                      <p>$727.00</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 add-cart">
+                      <a href="./catalogo.html" class="btn bg-dark btn-lg btn-block text-white">Seguir comprando</a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 add-cart">
+                      <a data-dismiss="modal" class="btn btn-primary btn-lg btn-block text-white">Continuar</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="row product">
+      <div class="col-md-7 img-cont">
+        <div id="gallery" class="gallery col-md-2 offset-md-1">
+          <a id="gal01" href="#" data-image="./assets/img/small/producto1.png" data-zoom-image="./assets/img/producto1.jpg">
+            <img src="./assets/img/thumb/producto1.png" alt="Imagen para Zoom">
+          </a>
+          <a id="gal02" href="#" data-image="./assets/img/small/producto2.png" data-zoom-image="./assets/img/producto2.jpg">
+            <img src="./assets/img/thumb/producto2.png" alt="Imagen para Zoom">
+          </a>
+          <a id="gal03" href="#" data-image="./assets/img/small/producto3.png" data-zoom-image="./assets/img/producto3.jpg">
+            <img src="./assets/img/thumb/producto3.png" alt="Imagen para Zoom">
+          </a>
+          <a id="gal04" href="#" data-image="./assets/img/small/producto4.png" data-zoom-image="./assets/img/producto4.jpg">
+            <img src="./assets/img/thumb/producto4.png" alt="Imagen para Zoom">
+          </a>
+          <a id="gal05" href="#" data-image="./assets/img/small/producto5.png" data-zoom-image="./assets/img/producto5.jpg">
+            <img src="./assets/img/thumb/producto5.png" alt="Imagen para Zoom">
+          </a>
+        </div>
+        <div class="selected-img col-md-8">
+          <img id="zoom" src="./assets/img/small/producto1.png" data-zoom-image="./assets/img/producto1.jpg"/>
+        </div>
+      </div>
+      <div class="col-md-4 product-info">
+        <div class="row">
+          <div class="col-md-12 product-name">
+            <img src="./assets/img/stars.png" alt="Rate">
+            <span>57 Calificaciones</span>
+            <p>SOCCER</p>
+            <h4>ESTILO S160BJ</h4>
+            <h5>$727.00</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 offer">
+            <h4>NO APLICA DESCUENTO</h4>
+            <p>Sobre este articulo no se podrá aplicar ningún tipo de descuento.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 offer">
+            <h4>COLORES DISPONIBLES</h4>
+            <div class="colors row">
+              <a href="#" class="col-md-2 colors-item">
+                <div class="p-3 mb-2 bg-primary"></div>
+              </a>
+              <a href="#" class="col-md-2 colors-item">
+                <div class="p-3 mb-2 bg-secondary"></div>
+              </a>
+              <a href="#" class="col-md-2 colors-item">
+                <div class="p-3 mb-2 bg-success"></div>
+              </a>
+              <a href="#" class="col-md-2 colors-item">
+                <div class="p-3 mb-2 bg-danger"></div>
+              </a>
+              <a href="#" class="col-md-2 colors-item">
+                <div class="p-3 mb-2 bg-warning"></div>
+              </a>
+              <a href="#" class="col-md-2 colors-item">
+                <div class="p-3 mb-2 bg-info"></div>
+              </a>
+              <a href="#" class="col-md-2 colors-item">
+                <div class="p-3 mb-2 bg-light"></div>
+              </a>
+              <a href="#" class="col-md-2 colors-item">
+                <div class="p-3 mb-2 bg-dark"></div>
+              </a>
+              <a href="#" class="col-md-2 colors-item">
+                <div class="p-3 mb-2 bg-white"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="controlls col-md-6">
+            <div class="btn-group">
+              <a class="talla btn btn-lg btn-block btn-outline-secondary dropdown-toggle" data-toggle="dropdown" href="#">Elige tu talla <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item px-1"><a href="#">MX 4.0 </a></li>
+                <li class="dropdown-item px-1"><a href="#">MX 4.5 </a></li>
+                <li class="dropdown-item px-1"><a href="#">MX 5.0 </a></li>
+                <li class="dropdown-item px-1"><a href="#">MX 5.5 </a></li>
+                <li class="dropdown-item px-1"><a href="#">MX 6.0 </a></li>
+                <li class="dropdown-item px-1"><a href="#">MX 6.5 </a></li>
+                <li class="dropdown-item px-1"><a href="#">MX 7.0 </a></li>
+                <li class="dropdown-item px-1"><a href="#">MX 7.5 </a></li>
+                <li class="dropdown-item px-1"><a href="#">MX 8.0 </a></li>
+                <li class="dropdown-item px-1"><a href="#">MX 8.5 </a></li>
+                <li class="dropdown-item px-1"><a href="#">MX 9.0 </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="controlls col-md-3">
+            <div class="btn-group">
+              <a class="talla btn btn-lg btn-block btn-outline-secondary dropdown-toggle" data-toggle="dropdown" href="#">Cantidad <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item px-1"><a href="#">1 </a></li>
+                <li class="dropdown-item px-1"><a href="#">2 </a></li>
+                <li class="dropdown-item px-1"><a href="#">3 </a></li>
+                <li class="dropdown-item px-1"><a href="#">4 </a></li>
+                <li class="dropdown-item px-1"><a href="#">5 </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-12 add-cart">
+            <a data-toggle="modal" href="#shopping-cart" class="btn btn-primary btn-lg btn-block">Añadir al carrito</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1 img-cont"></div>
+    </div>
+    <footer class="footer row">
+      <div class="col-12 d-flex justify-content-center">
+        <form class="form-inline my-2 my-lg-0">
+          <label>
+            *Registrate para conocer lo nuevo de CONCORD
+            <input class="mail form-control mr-sm-2 align-middle" type="email" placeholder="Tu correo electronico" aria-label="Correo">
+          </label>
+          <div class="dropright align-middle">
+            <button class="subscribe btn bg-danger text-white dropdown-toggle my-2 my-sm-0" type="submit">Suscribirse&nbsp;</button>
+          </div>
+          <a href="#">
+            <img class="social" src="./assets/img/twitter.svg" width="40" alt="Twitter">
+          </a>
+          <a href="#">
+            <img class="social" src="./assets/img/facebook.svg" width="40" alt="Facebook">
+          </a>
+          <a href="#">
+            <img class="social" src="./assets/img/instagram.svg" width="40" alt="Instragram">
+          </a>
+        </form>
+      </div>
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="./js/jquery.elevateZoom-3.0.8.min.js"></script>
+  <script src="./js/header-footer.js"></script>
+  <script src="./js/producto.js"></script>
+</body>
+</html>

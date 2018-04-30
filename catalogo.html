@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Concord - Catalogo</title>
+  <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/header-footer.css">
+  <link rel="stylesheet" href="./css/catalogo.css">
+</head>
+<body>
+    <header>
+        <div class="superior-nav">
+          <div class="superior-nav-item col-1"></div>
+          <div class="superior-nav-item col-7">
+            <ul>
+              <li><a class="nav-link" href="#">Mi Cuenta</a></li>
+              <li><a class="nav-link" href="#">Mis Deseos</a></li>
+              <li><a class="nav-link" href="#">Pagar</a></li>
+              <li><a class="nav-link" href="#">Nuestras Direcciónes</a></li>
+              <li><a class="nav-link" href="#">Historia</a></li>
+            </ul>
+          </div>
+          <div class="superior-nav-item col-3">
+            <ul>
+              <li><a class="nav-link" href="#">Login &amp; Register</a></li>
+              <li>
+                <div class="btn-group">
+                  <a class="currency nav-link dropdown-toggle" data-toggle="dropdown" href="#">MXN <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item px-1"><a href="#">MXN </a></li>
+                    <li class="dropdown-item px-1"><a href="#">USD </a></li>
+                    <li class="dropdown-item px-1"><a href="#">EUR </a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="superior-nav-item col-1"></div>
+        </div>
+        <nav class="navbar navbar-light navbar-expand-md bg-light">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/img/logo.png" width="55" height="50" alt="">
+          </a> 
+          <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse w-100 justify-content-between" id="collapsingNavbar">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">INICIO</a>
+              </li>
+              <li class="dropdown menu-large nav-item"> <a href="#" class="dropdown-toggle nav-link activate" data-toggle="dropdown">CATALOGO </a>
+                <ul class="dropdown-menu megamenu">
+                  <div class="row">
+                    <li class="col-md-4 dropdown-item">
+                      <ul>
+                        <li class="dropdown-header">CALZADO</li>
+                        <li><a href="./catalogo.html">Soccer</a></li>
+                        <li><a href="./catalogo.html">Salón</a></li>
+                        <li><a href="./catalogo.html">Running</a></li>
+                        <li><a href="./catalogo.html">Urbano</a></li>
+                        <li><a href="./catalogo.html">Casual</a></li>
+                        <li><a href="./catalogo.html">Kids</a></li>
+                        <li><a href="./catalogo.html">Basket</a></li>
+                        <li>&nbsp;</li>
+                        <li><a href="./catalogo.html">Ver Todo</a></li>
+                      </ul>
+                    </li>
+                    <li class="col-md-4 dropdown-item">
+                      <ul>
+                        <li class="dropdown-header">ROPA</li>
+                        <li><a href="./catalogo.html">Gorras</a></li>
+                        <li><a href="./catalogo.html">Guantes</a></li>
+                        <li><a href="./catalogo.html">Medias</a></li>
+                        <li><a href="./catalogo.html">Tines</a></li>
+                        <li><a href="./catalogo.html">Uniformes Deportivos</a></li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                        <li><a href="./catalogo.html">Ver Todo</a></li>
+                      </ul>
+                    </li>
+                    <li class="col-md-4 dropdown-item">
+                      <ul>
+                        <li class="dropdown-header">ACCESORIOS</li>
+                        <li><a href="./catalogo.html">Balones</a></li>
+                        <li><a href="./catalogo.html">Espinilleras</a></li>
+                        <li><a href="./catalogo.html">Zapateras</a></li>
+                        <li><a href="./catalogo.html">Mochilas</a></li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                        <li><a href="./catalogo.html">Ver Todo</a></li>
+                      </ul>
+                    </li>
+                  </div>
+                </ul>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACTO</a> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">UBICACIÓN</a> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ACERCA DE CONCORD</a> 
+              </li>
+            </ul>
+            <ul class="nav navbar-nav flex-row flex-nowrap">
+              <li class="nav-item">
+                <input class="form-control" type="search" placeholder="Buscar Productos" aria-label="Search">
+              </li>
+              <li class="nav-item item">
+                <a data-toggle="modal" href="#shopping-cart">
+                  <span class="notify-badge">1</span>
+                  <div>
+                    <img src="./assets/img/shopping-cart.svg" width="22" height="22" alt="Carrito de compras">
+                  </div>
+                </a>
+              </li> 
+              <div id="shopping-cart" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">CARRITO DE COMPRAS</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body row">
+                    <div class="col-md-7">
+                      <div class="row modal-product">
+                        <div class="col-md-5 image-product">
+                          <img src="./assets/img/small/producto1.png" width="180" alt="producto comprado"/>
+                        </div>
+                        <div class="col-md-7 info-product">
+                          <h4>ESTILO S160BJ</h4>
+                          <h6>$727.00</h6>
+                          <p>Color: Black / Orange / Yellow</p>
+                          <p>Talla: MX 7.5</p>
+                          <p>Cantidad: 1</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-5 info-sales">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h2>ARTICULO</h2>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-8">
+                          <p>Costo total de los productos: </p>
+                        </div>
+                        <div class="col-md-4">
+                          <br>
+                          <h6>$727.00</h6>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-8">
+                          <p>Costo de envio estándar: </p>
+                        </div>
+                        <div class="col-md-4">
+                          <p>&nbsp;&nbsp;&nbsp;&nbsp;$0.00</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-8">
+                          <p>Total: <br>(Impuestos incluidos)</p>
+                        </div>
+                        <div class="col-md-4">
+                          <p>$727.00</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12 add-cart">
+                          <a href="./catalogo.html" class="btn bg-dark btn-lg btn-block text-white">Seguir comprando</a>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12 add-cart">
+                          <a data-dismiss="modal" class="btn btn-primary btn-lg btn-block text-white">Continuar</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </ul>
+          </div>
+        </nav>
+      </header>
+  <div class="container">
+    <div class="row">
+      <div class="filters col-md-2">
+        <p class="map"><span class="map-active">Inicio / Catalogo / </span>Calzado</p>
+        <p class="title">CATALOGO</p>
+        <ul class="catalogue-list">
+          <li class="catalogue-item"><a data-toggle="collapse" href="#calzado-list" role="button" aria-expanded="false" aria-controls="calzado-list">Calzado</a>
+            <ul id="calzado-list" class="catalogue-sublist">
+              <li class="catalogue-subitem"><a href="./catalogo.html">Soccer (24)</a></li>
+              <li class="catalogue-subitem"><a href="./catalogo.html">Salón (17)</a></li>
+              <li class="catalogue-subitem"><a href="./catalogo.html">Running (21)</a></li>
+              <li class="catalogue-subitem"><a href="./catalogo.html">Urbano (19)</a></li>
+              <li class="catalogue-subitem"><a href="./catalogo.html">Casual (8)</a></li>
+              <li class="catalogue-subitem"><a href="./catalogo.html">Kids (29)</a></li>
+              <li class="catalogue-subitem"><a href="./catalogo.html">Basket (15)</a></li>
+            </ul>
+          </li>
+          <li class="catalogue-item"><a data-toggle="collapse" href="#ropa-list" role="button" aria-expanded="false" aria-controls="ropa-list">Ropa</a>
+            <ul id="ropa-list" class="catalogue-sublist collapse">
+              <li class="catalogue-subitem"><a href="./catalogo.html">Gorras (24)</a></li>
+              <li class="catalogue-subitem"><a href="./catalogo.html">Guantes (17)</a></li>
+              <li class="catalogue-subitem"><a href="./catalogo.html">Medias (21)</a></li>
+              <li class="catalogue-subitem"><a href="./catalogo.html">Tines (19)</a></li>
+              <li class="catalogue-subitem"><a href="./catalogo.html">Uniformes Deportivos (8)</a></li>
+            </ul>
+          </li>
+          <li class="catalogue-item"><a data-toggle="collapse" href="#accesorios-list" role="button" aria-expanded="false" aria-controls="accesorios-list">Accesorios</a>
+            <ul id="accesorios-list" class="catalogue-sublist collapse">
+              <li class="catalogue-subitem"><a href="./catalogo.html">Balones (24)</a></li>
+              <li class="catalogue-subitem"><a href="./catalogo.html">Espinilleras (17)</a></li>
+              <li class="catalogue-subitem"><a href="./catalogo.html">Zapateras (21)</a></li>
+              <li class="catalogue-subitem"><a href="./catalogo.html">Mochilas (19)</a></li>
+            </ul>
+          </li>
+        </ul>
+        <p class="title">FILTROS</p>
+        <ul class="filters-list">
+          <li class="filters-item"><a data-toggle="collapse" href="#inovaciones-list" role="button" aria-expanded="false" aria-controls="inovaciones-list">Inovaciones</a>
+            <ul id="inovaciones-list" class="filters-sublist collapse">
+              <li class="filters-subitem">
+                <input type="checkbox" class="form-check-input" id="check1">
+                <label class="form-check-label" for="check1">Inovacion 1</label>
+              </li>
+              <li class="filters-subitem">
+                <input type="checkbox" class="form-check-input" id="check2">
+                <label class="form-check-label" for="check2">Inovacion 2</label>
+              </li>
+              <li class="filters-subitem">
+                <input type="checkbox" class="form-check-input" id="check3">
+                <label class="form-check-label" for="check3">Inovacion 3</label>
+              </li>
+            </ul>
+          </li>
+          <li class="filters-item"><a data-toggle="collapse" href="#altura-list" role="button" aria-expanded="false" aria-controls="altura-list">Altura del calzado</a>
+            <ul id="altura-list" class="filters-sublist collapse">
+              <li class="filters-subitem">
+                <input type="checkbox" class="form-check-input" id="check4">
+                <label class="form-check-label" for="check4">Caña Alta</label>
+              </li>
+              <li class="filters-subitem">
+                <input type="checkbox" class="form-check-input" id="check5">
+                <label class="form-check-label" for="check5">Low Top</label>
+              </li>
+              <li class="filters-subitem">
+                <input type="checkbox" class="form-check-input" id="check6">
+                <label class="form-check-label" for="check6">Perfil Medio</label>
+              </li>
+            </ul>
+          </li>
+          <li class="filters-item"><a data-toggle="collapse" href="#Marca-list" role="button" aria-expanded="false" aria-controls="Marca-list">Marca del calzado</a>
+            <ul id="Marca-list" class="filters-sublist collapse">
+              <li class="filters-subitem">
+                <input type="checkbox" class="form-check-input" id="check7">
+                <label class="form-check-label" for="check7">Elemental</label>
+              </li>
+              <li class="filters-subitem">
+                <input type="checkbox" class="form-check-input" id="check8">
+                <label class="form-check-label" for="check8">Cambridge</label>
+              </li>
+              <li class="filters-subitem">
+                <input type="checkbox" class="form-check-input" id="check9">
+                <label class="form-check-label" for="check9">Revenant</label>
+              </li>
+            </ul>
+          </li>
+          <li class="filters-item"><a data-toggle="collapse" href="#Ideal-list" role="button" aria-expanded="false" aria-controls="Ideal-list">Ideal para</a>
+            <ul id="Ideal-list" class="filters-sublist collapse">
+              <li class="filters-subitem">
+                <input type="checkbox" class="form-check-input" id="check10">
+                <label class="form-check-label" for="check10">Clima frio</label>
+              </li>
+              <li class="filters-subitem">
+                <input type="checkbox" class="form-check-input" id="check11">
+                <label class="form-check-label" for="check11">Clima calido</label>
+              </li>
+              <li class="filters-subitem">
+                <input type="checkbox" class="form-check-input" id="check12">
+                <label class="form-check-label" for="check12">Resistete al agua</label>
+              </li>
+            </ul>
+          </li>
+          <li class="filters-item"><a data-toggle="collapse" href="#Anchura-list" role="button" aria-expanded="false" aria-controls="Anchura-list">Anchura del calzado</a>
+            <ul id="Anchura-list" class="filters-sublist collapse">
+              <li class="filters-subitem">
+                <input type="checkbox" class="form-check-input" id="check13">
+                <label class="form-check-label" for="check13">Angosto</label>
+              </li>
+              <li class="filters-subitem">
+                <input type="checkbox" class="form-check-input" id="check14">
+                <label class="form-check-label" for="check14">Normal</label>
+              </li>
+              <li class="filters-subitem">
+                <input type="checkbox" class="form-check-input" id="check15">
+                <label class="form-check-label" for="check15">Ancho</label>
+              </li>
+            </ul>
+          </li>
+          <li class="filters-item"><a data-toggle="collapse" href="#Color-list" role="button" aria-expanded="false" aria-controls="Color-list">Color</a>
+            <ul id="Color-list" class="filters-sublist collapse">
+              <li class="filters-subitem">
+                <div class="row">
+                  <a href="#" class="col-md-2 colors-item">
+                    <div class="p-3 mb-2 bg-primary"></div>
+                  </a>
+                  <a href="#" class="col-md-2 colors-item">
+                    <div class="p-3 mb-2 bg-secondary"></div>
+                  </a>
+                  <a href="#" class="col-md-2 colors-item">
+                    <div class="p-3 mb-2 bg-success"></div>
+                  </a>
+                </div>
+              </li>
+              <li class="filters-subitem">
+                <div class="row">
+                  <a href="#" class="col-md-2 colors-item">
+                    <div class="p-3 mb-2 bg-danger"></div>
+                  </a>
+                  <a href="#" class="col-md-2 colors-item">
+                    <div class="p-3 mb-2 bg-warning"></div>
+                  </a>
+                  <a href="#" class="col-md-2 colors-item">
+                    <div class="p-3 mb-2 bg-info"></div>
+                  </a>
+                </div>
+              </li>
+              <li class="filters-subitem">
+                <div class="row">
+                  <a href="#" class="col-md-2 colors-item">
+                    <div class="p-3 mb-2 bg-light"></div>
+                  </a>
+                  <a href="#" class="col-md-2 colors-item">
+                    <div class="p-3 mb-2 bg-dark"></div>
+                  </a>
+                  <a href="#" class="col-md-2 colors-item">
+                    <div class="p-3 mb-2 bg-white"></div>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="content col-md-10">
+        <div class="row">
+          <p class="title">CALZADO (133)</p>
+        </div>
+        <div class="row">
+          <div class="item-product col-md-3 d-flex justify-content-center">
+            <a href="./producto.html">
+              <img class="img-item" src="./assets/img/producto1.jpg" alt="Producto" width="200">
+              <div class="item-body">
+                <div class="feature">
+                  <img src="./assets/img/colorwheel.svg" alt="Personalizable" width="15">
+                  <p>Personalizable</p>
+                </div>
+                <div class="adn">
+                  <p class="product-name">Estilo S160BJ</p>
+                  <p class="price">$727.00</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item-product col-md-3 d-flex justify-content-center">
+            <a href="./producto.html">
+              <img class="img-item" src="./assets/img/producto2.jpg" alt="Producto" width="200">
+              <div class="item-body">
+                <div class="feature">
+                  <img src="./assets/img/colorwheel.svg" alt="Personalizable" width="15">
+                  <p>Personalizable</p>
+                </div>
+                <div class="adn">
+                  <p class="product-name">Estilo S175XA</p>
+                  <p class="price">$746.00</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item-product col-md-3 d-flex justify-content-center">
+            <a href="./producto.html">
+              <img class="img-item" src="./assets/img/producto3.jpg" alt="Producto" width="200">
+              <div class="item-body">
+                <div class="feature">
+                  <img src="./assets/img/colorwheel.svg" alt="Personalizable" width="15">
+                  <p>Personalizable</p>
+                </div>
+                <div class="adn">
+                  <p class="product-name">Estilo S160XB</p>
+                  <p class="price">$718.50</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item-product col-md-3 d-flex justify-content-center">
+            <a href="./producto.html">
+              <img class="img-item" src="./assets/img/producto4.jpg" alt="Producto" width="200">
+              <div class="item-body">
+                <div class="feature">
+                  <img src="./assets/img/colorwheel.svg" alt="Personalizable" width="15">
+                  <p>Personalizable</p>
+                </div>
+                <div class="adn">
+                  <p class="product-name">Estilo S163XV</p>
+                  <p class="price">$706.00</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="item-product col-md-3 d-flex justify-content-center">
+            <a href="./producto.html">
+              <img class="img-item" src="./assets/img/producto5.jpg" alt="Producto" width="200">
+              <div class="item-body">
+                <div class="feature">
+                  <img src="./assets/img/colorwheel.svg" alt="Personalizable" width="15">
+                  <p>Personalizable</p>
+                </div>
+                <div class="adn">
+                  <p class="product-name">Estilo S164XV</p>
+                  <p class="price">$638.50</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item-product col-md-3 d-flex justify-content-center">
+              <a href="./producto.html">
+                <img class="img-item" src="./assets/img/producto1.jpg" alt="Producto" width="200">
+                <div class="item-body">
+                  <div class="feature">
+                    <img src="./assets/img/colorwheel.svg" alt="Personalizable" width="15">
+                    <p>Personalizable</p>
+                  </div>
+                  <div class="adn">
+                    <p class="product-name">Estilo S160BJ</p>
+                    <p class="price">$727.00</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item-product col-md-3 d-flex justify-content-center">
+              <a href="./producto.html">
+                <img class="img-item" src="./assets/img/producto2.jpg" alt="Producto" width="200">
+                <div class="item-body">
+                  <div class="feature">
+                    <img src="./assets/img/colorwheel.svg" alt="Personalizable" width="15">
+                    <p>Personalizable</p>
+                  </div>
+                  <div class="adn">
+                    <p class="product-name">Estilo S175XA</p>
+                    <p class="price">$746.00</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item-product col-md-3 d-flex justify-content-center">
+              <a href="./producto.html">
+                <img class="img-item" src="./assets/img/producto3.jpg" alt="Producto" width="200">
+                <div class="item-body">
+                  <div class="feature">
+                    <img src="./assets/img/colorwheel.svg" alt="Personalizable" width="15">
+                    <p>Personalizable</p>
+                  </div>
+                  <div class="adn">
+                    <p class="product-name">Estilo S160XB</p>
+                    <p class="price">$718.50</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item-product col-md-3 d-flex justify-content-center">
+                <a href="./producto.html">
+                  <img class="img-item" src="./assets/img/producto4.jpg" alt="Producto" width="200">
+                  <div class="item-body">
+                    <div class="feature">
+                      <img src="./assets/img/colorwheel.svg" alt="Personalizable" width="15">
+                      <p>Personalizable</p>
+                    </div>
+                    <div class="adn">
+                      <p class="product-name">Estilo S163XV</p>
+                      <p class="price">$706.00</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item-product col-md-3 d-flex justify-content-center">
+                  <a href="./producto.html">
+                    <img class="img-item" src="./assets/img/producto5.jpg" alt="Producto" width="200">
+                    <div class="item-body">
+                      <div class="feature">
+                        <img src="./assets/img/colorwheel.svg" alt="Personalizable" width="15">
+                        <p>Personalizable</p>
+                      </div>
+                      <div class="adn">
+                        <p class="product-name">Estilo S164XV</p>
+                        <p class="price">$638.50</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="item-product col-md-3 d-flex justify-content-center">
+                    <a href="./producto.html">
+                      <img class="img-item" src="./assets/img/producto1.jpg" alt="Producto" width="200">
+                      <div class="item-body">
+                        <div class="feature">
+                          <img src="./assets/img/colorwheel.svg" alt="Personalizable" width="15">
+                          <p>Personalizable</p>
+                        </div>
+                        <div class="adn">
+                          <p class="product-name">Estilo S160BJ</p>
+                          <p class="price">$727.00</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="item-product col-md-3 d-flex justify-content-center">
+                    <a href="./producto.html">
+                      <img class="img-item" src="./assets/img/producto2.jpg" alt="Producto" width="200">
+                      <div class="item-body">
+                        <div class="feature">
+                          <img src="./assets/img/colorwheel.svg" alt="Personalizable" width="15">
+                          <p>Personalizable</p>
+                        </div>
+                        <div class="adn">
+                          <p class="product-name">Estilo S175XA</p>
+                          <p class="price">$746.00</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+        </div>
+        <div class="row">
+            <div class="item-product col-md-3 d-flex justify-content-center">
+                <a href="./producto.html">
+                  <img class="img-item" src="./assets/img/producto3.jpg" alt="Producto" width="200">
+                  <div class="item-body">
+                    <div class="feature">
+                      <img src="./assets/img/colorwheel.svg" alt="Personalizable" width="15">
+                      <p>Personalizable</p>
+                    </div>
+                    <div class="adn">
+                      <p class="product-name">Estilo S160XB</p>
+                      <p class="price">$718.50</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item-product col-md-3 d-flex justify-content-center">
+                <a href="./producto.html">
+                  <img class="img-item" src="./assets/img/producto4.jpg" alt="Producto" width="200">
+                  <div class="item-body">
+                    <div class="feature">
+                      <img src="./assets/img/colorwheel.svg" alt="Personalizable" width="15">
+                      <p>Personalizable</p>
+                    </div>
+                    <div class="adn">
+                      <p class="product-name">Estilo S163XV</p>
+                      <p class="price">$706.00</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item-product col-md-3 d-flex justify-content-center">
+                  <a href="./producto.html">
+                    <img class="img-item" src="./assets/img/producto5.jpg" alt="Producto" width="200">
+                    <div class="item-body">
+                      <div class="feature">
+                        <img src="./assets/img/colorwheel.svg" alt="Personalizable" width="15">
+                        <p>Personalizable</p>
+                      </div>
+                      <div class="adn">
+                        <p class="product-name">Estilo S164XV</p>
+                        <p class="price">$638.50</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="item-product col-md-3 d-flex justify-content-center">
+                    <a href="./producto.html">
+                      <img class="img-item" src="./assets/img/producto1.jpg" alt="Producto" width="200">
+                      <div class="item-body">
+                        <div class="feature">
+                          <img src="./assets/img/colorwheel.svg" alt="Personalizable" width="15">
+                          <p>Personalizable</p>
+                        </div>
+                        <div class="adn">
+                          <p class="product-name">Estilo S160BJ</p>
+                          <p class="price">$727.00</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer row">
+      <div class="col-12 d-flex justify-content-center">
+        <form class="form-inline my-2 my-lg-0">
+          <label>
+            *Registrate para conocer lo nuevo de CONCORD
+            <input class="mail form-control mr-sm-2 align-middle" type="email" placeholder="Tu correo electronico" aria-label="Correo">
+          </label>
+          <div class="dropright align-middle">
+            <button class="subscribe btn bg-danger text-white dropdown-toggle my-2 my-sm-0" type="submit">Suscribirse&nbsp;</button>
+          </div>
+          <a href="#">
+            <img class="social" src="./assets/img/twitter.svg" width="40" alt="Twitter">
+          </a>
+          <a href="#">
+            <img class="social" src="./assets/img/facebook.svg" width="40" alt="Facebook">
+          </a>
+          <a href="#">
+            <img class="social" src="./assets/img/instagram.svg" width="40" alt="Instragram">
+          </a>
+        </form>
+      </div>
+    </footer>
+  </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="./js/header-footer.js"></script>
+  <script src="./js/catalogo.js"></script>
+</body>
+</html>
